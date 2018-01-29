@@ -209,7 +209,6 @@ void handleRoot() {
     <p>Uptime: %02d:%02d:%02d</p>\
     <p>Temperature: %f & Humidity: %f</p>\
     <p>Last Message: %s</p>\
-    <img src=\"/test.svg\" />\
   </body>\
 </html>",
 

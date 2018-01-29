@@ -5,8 +5,10 @@
 
 ESP8266WebServer server(80); //Start webserver
 
-const char *ssid = "Telstra3ADA";
-const char *password = "2638455370";
+//const char *ssid = "Telstra3ADA";
+//const char *password = "2638455370";
+const char *ssid = "AndroidAP";
+const char *password = "aiem4383";
 
 int flag = 0;
 
