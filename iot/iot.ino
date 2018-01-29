@@ -36,7 +36,7 @@
 #include <DHT.h>
 #include <DHT_U.h>
 
-#define DHTPIN            D4         // Pin which is connected to the DHT sensor.
+#define DHTPIN            D5         // Pin which is connected to the DHT sensor.
 #define DHTTYPE           DHT11     // DHT 11
 
 DHT_Unified dht(DHTPIN, DHTTYPE);
