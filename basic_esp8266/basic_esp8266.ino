@@ -3,7 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-ESP8266WebServer server(80); //Start webserver
+//Globals
+ESP8266WebServer server(80); //Setup webserver
 
 //const char *ssid = "Telstra3ADA";
 //const char *password = "2638455370";
@@ -13,7 +14,7 @@ const char *password = "aiem4383";
 int flag = 0;
 
 void setup() {
-  pinMode(D7, OUTPUT);
+  pinMode(D7, OUTPUT); //Pin for the LED
   Serial.begin ( 115200 ); //Open serial communication at 115200 Baud Rate
   WiFi.begin ( ssid, password ); //Turn on wifi
   Serial.println ( "" );
