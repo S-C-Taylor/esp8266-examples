@@ -11,7 +11,7 @@ const char *password = "2638455370";
 int flag = 0;
 
 void setup() {
-  pinMode(D5, OUTPUT);
+  pinMode(D7, OUTPUT);
   Serial.begin ( 115200 ); //Open serial communication at 115200 Baud Rate
   WiFi.begin ( ssid, password ); //Turn on wifi
   Serial.println ( "" );
@@ -43,11 +43,11 @@ void setup() {
 
 void doLed(){
   if (flag){ //If the LED is ON turn it off
-    digitalWrite(D5, LOW);
+    digitalWrite(D7, LOW);
     server.send(200, "text/plain", "LED OFF");
     flag = 0;
   }else{ //If the LED is OFF turn it on
-    digitalWrite(D5, HIGH);
+    digitalWrite(D7, HIGH);
     server.send(200, "text/plain", "LED ON");
     flag = 1;
   }
