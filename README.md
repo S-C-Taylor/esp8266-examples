@@ -26,3 +26,5 @@ Cheap and local WeMos Boards: [WeMos](http://www.ebay.com.au/itm/WeMos-D1-R2-Lat
 Getting Started: [cyaninfinite](http://cyaninfinite.com/tutorials/getting-started-with-the-wemos-d1-esp8266-wifi-board)
 
 ESP8266 Experiments and Investigations (Youtube): [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ)
+
+Some cool use cases and examples: [Hackaday](https://hackaday.com/tag/esp8266)
