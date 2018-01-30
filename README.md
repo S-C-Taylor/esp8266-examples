@@ -2,6 +2,8 @@
 
 This repository contains two basic examples of an esp8266 webserver
 
+Slides: goo.gl/ezdvsB
+
 ## Getting Setup
 In order to get started programming your ESP8266 you must set up your IDE.
 
